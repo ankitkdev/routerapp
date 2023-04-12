@@ -1,7 +1,6 @@
-import './App.css';
 import { Card, CardBody, Text, Container } from '@chakra-ui/react'
 
-function App() {
+function awesome() {
   return (
     <Container maxW='container.sm' centerContent>
       <Card m={5} bgGradient='linear(to-r, gray.300, yellow.400, pink.200)'>
@@ -12,7 +11,7 @@ function App() {
             fontSize='6xl'
             fontWeight='extrabold'
           >
-            Welcome to Chakra UI
+            Welcome to Awesome
           </Text>
         </CardBody>
       </Card>
@@ -20,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default awesome;
